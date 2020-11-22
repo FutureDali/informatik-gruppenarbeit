@@ -5,7 +5,7 @@ print("Herr Hacker: Guten Abend")
 print("Moderator: Fühlen sie sich im Vollbesitz ihrer geistigen Kräfte?")
 print("Herr Hacker: Aber immer!")
 print("Frau Surbier nickt")
-print("""Moderator: Na gut dann können wir ja anfangen. Ähm Herr Hacker, Frau Surbier ihr Spezielgebiet ist 'Rembrandt'. Frage 1: Am 20.06.1630 erhält Rempbrandt den Besuch eines Abgesandten der spanischen Krone. Wie hieß der Maler der diesen Besuch erhielt?""")
+print("""Moderator: Na gut dann können wir ja anfangen. Ähm Herr Hacker, Frau Surbier ihr Spezielgebiet ist 'Rembrandt'. Frage 1: Am 20.06.1630 erhält Rembrandt den Besuch eines Abgesandten der spanischen Krone. Wie hieß der Maler der diesen Besuch erhielt?""")
 a = input("Wer soll antworten? [Frau Surbier / Herr Hacker]: ")
 if a == "Frau Surbier":
     print("Frau Surbier: Hmm Ägypten?")
@@ -32,7 +32,7 @@ elif a == "Herr Hacker":
         if c == "Frau Surbier":
             print("Frau Surbier: Ne das weiß ich leider nicht?")
             print("Moderator: Schade, dann wäre dies auch das Ende unserere Runde. Frau Surbier, Herr Hacker für das Erreichen der letzten Runde dürfen sie sich nun etwas wünschen")
-            print("Frau Surbier: Ähm ein Toster, iene blumenvaase, so so so'n Kochsatz, Schuhe, \n ein Fragezeichen, ein Doppelpunkt, ein Anführungszeichen oben ähm und ich wünsch mir so ne französische Köchin die mir ein französisches Gericht serviert!")
+            print("Frau Surbier: Ähm ein Toster, eine Blumenvase, so so so'n Kochsatz, Schuhe, \n ein Fragezeichen, ein Doppelpunkt, ein Anführungszeichen oben ähm und ich wünsch mir so ne französische Köchin die mir ein französisches Gericht serviert!")
         elif c == "Herr Hacker":
             print("Herr Hacker: Ein Mann?")
             print("Moderator: Ja")
